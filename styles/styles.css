@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: sans-serif
 }
 
 img {
@@ -64,3 +64,19 @@ header {
 }
 
 /* Portfolio */
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 90vh;
+}
+
+.portfolio-cards > img {
+    height: 40%;
+    border-radius: 5%;
+}
