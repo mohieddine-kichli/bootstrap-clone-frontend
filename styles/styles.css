@@ -91,18 +91,33 @@ header {
 .about-us {
     background-color: #1abc9c;
     color:white;
-    padding: 20px 200px;
+    padding: 50px 250px;
+    text-align: center;
 }
 
 .about-us > h2 {
+    font-size: 40px;
     margin:20px 0;
-    text-align: center;
+    text-transform: uppercase;
 }
-.about-us-parag{
+.about-us-parag {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.about-us-parag {
+    margin-right: 30px;
+    text-align: left !important;
+    font-size: 20px;
 }
 
 .about-us > button {
-    margin: 0 auto;
+    background-color: #1abc9c;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
 }
