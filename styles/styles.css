@@ -99,8 +99,10 @@ header {
     text-align: center;
 }
 .about-us-parag{
-
     display: flex;
     justify-content: space-between;
-    
+}
+
+.about-us > button {
+    margin: 0 auto;
 }
