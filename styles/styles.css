@@ -67,18 +67,40 @@ header {
 
 .portfolio {
     text-align: center;
+    color: #2c3e50;;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 50px 10px;
+    height: auto;
 }
 
 .portfolio-cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 90vh;
 }
 
 .portfolio-cards > img {
-    flex-basis: 29%;
-    height: 40%;
-    border-radius: 5%;
+    height: 45vh;
     margin: 10px auto;
+    border-radius: 3%;
+}
+
+/* About us */
+
+.about-us {
+    background-color: #1abc9c;
+    color:white;
+    padding: 20px 200px;
+}
+
+.about-us > h2 {
+    margin:20px 0;
+    text-align: center;
+}
+.about-us-parag{
+
+    display: flex;
+    justify-content: space-between;
+    
 }
