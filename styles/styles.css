@@ -77,6 +77,8 @@ header {
 }
 
 .portfolio-cards > img {
+    flex-basis: 29%;
     height: 40%;
     border-radius: 5%;
+    margin: 10px auto;
 }
